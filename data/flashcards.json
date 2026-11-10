@@ -1,0 +1,202 @@
+[
+  {
+    "id": "FC-001",
+    "domain_id": "D1",
+    "front": "Confidentiality",
+    "back": "Prevent unauthorized disclosure of information.",
+    "source_page": 5,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-002",
+    "domain_id": "D1",
+    "front": "Integrity",
+    "back": "Prevent unauthorized or accidental alteration of information.",
+    "source_page": 5,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-003",
+    "domain_id": "D1",
+    "front": "Availability",
+    "back": "Ensure authorized users can access systems and data when needed.",
+    "source_page": 5,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-004",
+    "domain_id": "D1",
+    "front": "Risk formula",
+    "back": "Risk is commonly described as likelihood × impact.",
+    "source_page": 5,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-005",
+    "domain_id": "D1",
+    "front": "Annualized loss expectancy (ALE)",
+    "back": "ALE = SLE × ARO; SLE = asset value × exposure factor.",
+    "source_page": 6,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-006",
+    "domain_id": "D2",
+    "front": "Business Impact Analysis (BIA)",
+    "back": "Identifies critical business processes, dependencies, outage impacts and recovery priorities.",
+    "source_page": 11,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-007",
+    "domain_id": "D2",
+    "front": "Recovery Time Objective (RTO)",
+    "back": "Target duration to restore a system or service after disruption.",
+    "source_page": 11,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-008",
+    "domain_id": "D2",
+    "front": "Recovery Point Objective (RPO)",
+    "back": "Maximum acceptable data loss expressed as time.",
+    "source_page": 11,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-009",
+    "domain_id": "D2",
+    "front": "BCP versus DRP",
+    "back": "BCP keeps critical business functions operating; DRP restores IT services and data.",
+    "source_page": 11,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-010",
+    "domain_id": "D2",
+    "front": "Incremental backup",
+    "back": "Changes since the latest backup of any type; restoration requires the backup chain.",
+    "source_page": 12,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-011",
+    "domain_id": "D3",
+    "front": "Identification",
+    "back": "Claim an identity, for example by entering a username.",
+    "source_page": 16,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-012",
+    "domain_id": "D3",
+    "front": "Authentication",
+    "back": "Prove the claimed identity.",
+    "source_page": 16,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-013",
+    "domain_id": "D3",
+    "front": "Authorization",
+    "back": "Determine the permissions granted to an authenticated identity.",
+    "source_page": 16,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-014",
+    "domain_id": "D3",
+    "front": "RBAC",
+    "back": "Role-based access control: permissions assigned by job role.",
+    "source_page": 17,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-015",
+    "domain_id": "D3",
+    "front": "ABAC",
+    "back": "Attribute-based access control: decisions based on subject, resource, action and environmental attributes.",
+    "source_page": 17,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-016",
+    "domain_id": "D4",
+    "front": "TCP versus UDP",
+    "back": "TCP is connection-oriented with reliable ordered delivery; UDP is connectionless.",
+    "source_page": 22,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-017",
+    "domain_id": "D4",
+    "front": "DMZ",
+    "back": "A perimeter network for publicly accessible services separated from internal networks.",
+    "source_page": 24,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-018",
+    "domain_id": "D4",
+    "front": "IaaS",
+    "back": "Cloud provider manages infrastructure; customer manages OS, applications and data.",
+    "source_page": 24,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-019",
+    "domain_id": "D4",
+    "front": "PaaS",
+    "back": "Cloud provider also manages operating system and runtime; customer manages code and data.",
+    "source_page": 24,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-020",
+    "domain_id": "D4",
+    "front": "SaaS",
+    "back": "Provider delivers the application; customer still manages data, access and configuration.",
+    "source_page": 24,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-021",
+    "domain_id": "D5",
+    "front": "Incident response phases",
+    "back": "Preparation; Detection and Analysis; Containment; Eradication; Recovery; Lessons Learned.",
+    "source_page": 28,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-022",
+    "domain_id": "D5",
+    "front": "Hashing",
+    "back": "Produces a fixed-length digest to detect changes; not reversible encryption.",
+    "source_page": 28,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-023",
+    "domain_id": "D5",
+    "front": "Symmetric encryption",
+    "back": "Uses the same secret key for encryption and decryption; efficient for bulk data.",
+    "source_page": 28,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-024",
+    "domain_id": "D5",
+    "front": "Order of volatility",
+    "back": "Collect volatile evidence, such as RAM, before less volatile evidence.",
+    "source_page": 29,
+    "verification_status": "source_based_summary"
+  },
+  {
+    "id": "FC-025",
+    "domain_id": "D5",
+    "front": "SAST versus DAST",
+    "back": "SAST analyzes source or binaries without running the application; DAST tests a running application.",
+    "source_page": 30,
+    "verification_status": "source_based_summary"
+  }
+]

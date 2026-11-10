@@ -1,0 +1,27 @@
+[
+  {
+    "id": "D1",
+    "title": "Security Principles",
+    "exam_weight_percent": 24
+  },
+  {
+    "id": "D2",
+    "title": "Security Governance",
+    "exam_weight_percent": 17.3
+  },
+  {
+    "id": "D3",
+    "title": "Identity & Access Management (IAM) Concepts",
+    "exam_weight_percent": 20
+  },
+  {
+    "id": "D4",
+    "title": "Networking & Cloud Security Concepts",
+    "exam_weight_percent": 21.3
+  },
+  {
+    "id": "D5",
+    "title": "Security Operations & Incident Response",
+    "exam_weight_percent": 17.3
+  }
+]

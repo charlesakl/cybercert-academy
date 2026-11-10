@@ -1,0 +1,86 @@
+[
+  {
+    "day": 1,
+    "focus": "Baseline + D1",
+    "task": "Take Domain 1 drill cold (no study). Start error log. Study CIA, privacy, AAA.",
+    "source_page": 4
+  },
+  {
+    "day": 2,
+    "focus": "D1",
+    "task": "Risk, treatments, ALE, controls, governance documents, Code of Ethics.",
+    "source_page": 4
+  },
+  {
+    "day": 3,
+    "focus": "D2",
+    "task": "GRC, laws & frameworks, awareness, KPIs/KRIs. Do D2 drill.",
+    "source_page": 4
+  },
+  {
+    "day": 4,
+    "focus": "D2",
+    "task": "BC/DR, BIA, MTD/RTO/RPO, sites, backup types, test types.",
+    "source_page": 4
+  },
+  {
+    "day": 5,
+    "focus": "D3",
+    "task": "Factors, MFA, biometrics, least privilege, SoD, need to know.",
+    "source_page": 4
+  },
+  {
+    "day": 6,
+    "focus": "D3",
+    "task": "DAC/MAC/RBAC/ABAC, lifecycle (JML), SSO/SAML/OAuth/OIDC, PAM. D3 drill.",
+    "source_page": 4
+  },
+  {
+    "day": 7,
+    "focus": "Checkpoint",
+    "task": "Redo D1\u2013D3 drills closed-book. Re-learn every miss. Teach CIA\u2192IAM aloud in 10 min.",
+    "source_page": 4
+  },
+  {
+    "day": 8,
+    "focus": "D4",
+    "task": "OSI/TCP-IP, IPv4/IPv6, private ranges, ports, insecure\u2192secure pairs.",
+    "source_page": 4
+  },
+  {
+    "day": 9,
+    "focus": "D4",
+    "task": "Attacks & malware, firewalls, IDS/IPS, DMZ, VLAN, Zero Trust, wireless, IoT.",
+    "source_page": 4
+  },
+  {
+    "day": 10,
+    "focus": "D4",
+    "task": "Cloud characteristics, IaaS/PaaS/SaaS, deployment models, shared responsibility. D4 drill.",
+    "source_page": 4
+  },
+  {
+    "day": 11,
+    "focus": "D5",
+    "task": "Data lifecycle, sanitization, crypto (symmetric/asymmetric/hash/signatures/PQC), logging & triage.",
+    "source_page": 4
+  },
+  {
+    "day": 12,
+    "focus": "D5",
+    "task": "Threat actors & intel, IR phases & evidence, asset/config/change mgmt, security testing. D5 drill.",
+    "source_page": 4
+  },
+  {
+    "day": 13,
+    "focus": "Mock exam",
+    "task": "50-question mock in 60 minutes, no notes, no going back. Score by domain. Remediate.",
+    "source_page": 4
+  },
+  {
+    "day": 14,
+    "focus": "Consolidate",
+    "task": "Error log + contrast table + cheat sheet only. Light review, early night.",
+    "source_page": 4
+  }
+]
